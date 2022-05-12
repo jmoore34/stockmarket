@@ -1,0 +1,3 @@
+# Generation overview
+
+For the generation of the data, we used [Mockaroo](https://mockaroo.com/) for all the tables except the `Hires` table. Since `Hires` is very dependent on the other tables we wrote a Java script (not javascript) to simulate buying and selling of stocks between users, facilitated by brokers. This Java script connected to the database directly and inserted rows into the `Hires` table while updating `Person`, and `Stock`. This Java script depends on the MariaDB-java database driver which can be downloaded [here](https://downloads.mariadb.com/Connectors/java/connector-java-2.6.0/mariadb-java-client-2.6.0.jar).
