@@ -1,6 +1,8 @@
 # Stock Market Database
 SQL and design documents for a stock market database.
 
+Created by Jonathan Moore, Charles Jackson, and Kairo Sauceda for [CS 4347: Database Systems](https://catalog.utdallas.edu/2021/undergraduate/courses/cs4347).
+
 ## ER Diagram
 
 ![ER Diagram](https://user-images.githubusercontent.com/1783464/168152702-a599000e-d8c6-467e-a543-712a88e2dbc0.png)
